@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: linear-gradient(150deg, #0084ff, #0c4377);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    height: 100vh; /* Viewport Height */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    position: absolute;
+    background-color: black;
+}
