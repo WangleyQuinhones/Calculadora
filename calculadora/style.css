@@ -10,9 +10,8 @@ body {
     color: white;
     text-align: center;
     height: 100vh; /* Viewport Height */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex;    
+    
 }
 
 .box {
@@ -46,6 +45,7 @@ button:hover {
     height: 50px;
     width: 305px;
     margin: 3.5px;   
+    font-size: 25px;
        
 }
 
