@@ -25,6 +25,19 @@ button{
     font-size: 25px;
     cursor: pointer;
     border: none;
+    background-color: rgba(97, 96, 96, 0.8);
+    color: #fff;
+}
+button:hover{
+    background-color:rgba(61, 60, 60, 0.8) ;;
+}
+.tela{
+    background: #fff;
+    height: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: end;
+    margin: 3px;
 }
 /* *{
     padding: 0;
