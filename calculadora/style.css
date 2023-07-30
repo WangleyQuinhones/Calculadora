@@ -3,6 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background: linear-gradient(150deg, #0084ff, #0c4377);
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     background: linear-gradient(150deg, #0084ff, #0c4377);
@@ -10,7 +38,7 @@ body {
     color: white;
     text-align: center;
     height: 100vh; /* Viewport Height */
-    display: flex;    
+   /* display: flex;    
     
 }
 
